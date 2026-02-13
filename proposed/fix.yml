@@ -1,0 +1,5 @@
+corrections:
+- interface: eth1
+  priority: high
+  qos: increase
+  reason: "Trafic anormal simul\xE9 pour test"
