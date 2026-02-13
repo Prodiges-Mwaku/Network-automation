@@ -1,0 +1,9 @@
+---
+- name: Deploy Configurations to Routers
+  hosts: routers
+  gather_facts: no
+
+  tasks:
+    - name: Simulated deployment
+      debug:
+        msg: "Configuration envoyée vers {{ inventory_hostname }}"

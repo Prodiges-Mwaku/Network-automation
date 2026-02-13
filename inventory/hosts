@@ -1,0 +1,3 @@
+[routers]
+router_kin ansible_host=10.0.0.1
+router_lub ansible_host=10.0.0.2

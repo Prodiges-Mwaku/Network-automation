@@ -1,0 +1,6 @@
+hostname: router_kin
+interfaces:
+  - name: eth0
+    ip: 10.0.0.1/24
+  - name: eth1
+    ip: 192.168.1.1/24
